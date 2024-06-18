@@ -1,13 +1,3 @@
-#M1 Slice method
-a = input("Enter the value: \n")
-reverse = a [::-1]
-if(a== reverse):
-    print("Yes,it is palindrome")
-else:
-    print("No, it is not palindrome")
-
-#................................................
-#M2
 num = int(input("Enter the number : \n"))  # Take an integer input from the user and store it in num
 temp = num  # Store the original value of num in temp (currently not used further)
 reverse = 0  # Initialize reverse to 0
@@ -21,7 +11,3 @@ if temp== reverse:
     print("Number is a palindrome.")
 else:
     print("Number is not a palindrome.")
-
-#print(type(num)) if we write num = input() i.e string
-
-#...............................................
